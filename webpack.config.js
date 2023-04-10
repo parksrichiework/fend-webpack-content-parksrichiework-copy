@@ -11,7 +11,8 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: "babel-loader"
             }
-        ]
+        ],
+        
     },
     plugins: [
         new HtmlWebPackPlugin({
